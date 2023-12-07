@@ -10,7 +10,7 @@ export abstract class AuthDatasource {
    * @param registerUserDto - The user data for registration.
    * @returns A promise that resolves to the registered user data.
    */
-  abstract register(registerUserDto: RegisterUserDto): Promise<RegisterUserDto>;
+  abstract register(registerUserDto: RegisterUserDto): Promise<UserEntity>;
 
   /**
    * Logs in a user.
