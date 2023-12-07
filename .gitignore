@@ -1,0 +1,8 @@
+
+
+mongo/
+.env
+node_modules/
+
+dist/
+build/
